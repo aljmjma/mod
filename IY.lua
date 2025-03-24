@@ -8762,7 +8762,7 @@ addcmd('goto',{'to'},function(args, speaker)
 				speaker.Character:FindFirstChildOfClass('Humanoid').Sit = false
 				wait(.1)
 			end
-			getRoot(speaker.Character).CFrame = getRoot(Players[v].Character).CFrame + Vector3.new(3,1,0)
+			getRoot(speaker.Character).CFrame = getRoot(Players[v].Character).CFrame + Vector3.new(0,0,0)
 		end
 	end
 	execCmd('breakvelocity')
